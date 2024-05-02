@@ -1,8 +1,12 @@
+import AboutPage from "./pages/AboutPage";
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
-    <div>
-      <h1 className="bg-green-700">Home</h1>
-    </div>
+    <>
+      <HomePage />
+      {/* <AboutPage/> */}
+    </>
   );
 }
 
